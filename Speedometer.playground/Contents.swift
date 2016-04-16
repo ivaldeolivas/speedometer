@@ -81,6 +81,7 @@ let auto = Auto()
 
 for i in 0..<20 {
     print(auto.cambioDeVelocidad(-1, velocidadEnCadena: APAGADO));
+    print("Velocidad: \(auto.velocidad)" )
     print(auto.cambioDeVelocidad(Velocidades.Apagado.rawValue, velocidadEnCadena: APAGADO));
     print(auto.cambioDeVelocidad(Velocidades.VelocidadBaja.rawValue, velocidadEnCadena: APAGADO));
     print(auto.cambioDeVelocidad(Velocidades.VelocidadMedia.rawValue, velocidadEnCadena: APAGADO));
